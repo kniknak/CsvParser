@@ -21,16 +21,11 @@
             "CsvParser\\": "src/"
         }
     },
-    "repositories": [{
-        "type": "package",
-        "package": {
-            "name": "kniknak/CsvParser",
-            "version": "0.1.0",
-            "source": {
-                "url": "https://github.com/kniknak/CsvParser.git",
-                "type": "git",
-                "reference": "0.1.0"
-            }
+    "repositories": [
+        {
+            "name":"kniknak/CsvParser",
+            "type":"vcs",
+            "url":"http://github.com/kniknak/CsvParser"
         }
-    }]
+    ]
 }
